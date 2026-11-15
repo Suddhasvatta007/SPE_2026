@@ -1,0 +1,13 @@
+D1-M VALIDATION REPORT
+Method: no mapping generator exists in the repo -> Curveball (degree-preserving binary-matrix randomization), seed=42, 5000 trades
+Jaccard definition (from Sensitivity Analysis/Task 1/RR_Toy.ipynb): mean over all unordered test pairs of |R_a ∩ R_b| / |R_a ∪ R_b|, R_t = requirement set of test t
+Requirements: 248 vs 248
+Tests: 80 vs 80
+Total links: 488 vs 488 (rows in file: 488)
+Requirement-degree identical: True (max abs diff 0)
+Test-degree identical: True (max abs diff 0)
+ID sets identical: reqs True, tests True
+Test execution time equal: True
+Requirement BV equal: True
+Mean pairwise Jaccard: original 14.0845% (reported ~14.09%) vs D1-M 15.0312%
+Edges differing: 354 of 488 original edges removed/replaced (72.54%); 354 new edges
